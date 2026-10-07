@@ -1,0 +1,98 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "John M. Pearson": {},
+    "Patrick T. Hickey": {},
+    "Shivanand P. Lad": {},
+    "Michael L. Platt": {},
+    "Dennis A. Turner": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.54tp8q5",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.3389/fnins.2017.00646",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000401",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000401",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NIH",
+      "award_number": "R21NS066115"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R21NS084176"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "K01ES025442"
+    }
+  ],
+  "title": "Subthalamic local field potentials during the balloon analogue risk task (Pearson et al., 2017): Parkinson's disease DBS surgery (derivative: decimated LFP)",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "2.73 GB (36 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".hdf5",
+    ".json",
+    ".md",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Intraoperative subthalamic nucleus local field potential recordings from patients with Parkinson's disease undergoing deep brain stimulation implantation while performing a self-paced balloon analogue risk task (BART). The derivative release contains 17 recordings from 14 patients, decimated to 200 Hz from 1 kHz acquisition, using single microelectrodes or 32-channel microwire arrays. Behavioural trial data and artifact-censoring intervals are provided as BIDS events.",
+  "methods_description": "LFP was recorded at 1 kHz intraoperatively at Duke University Medical Center during DBS implantation, then decimated and stored at 200 Hz. Recordings used single microelectrodes or a 32-channel Pt/Ir microwire array. They were repackaged into BrainVision float32 (µV) with behaviour and artifact-censoring tables converted to events.tsv.",
+  "keywords": [
+    {
+      "term": "subthalamic nucleus"
+    },
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "impulsivity"
+    },
+    {
+      "term": "balloon analogue risk task"
+    },
+    {
+      "term": "intracranial EEG"
+    }
+  ],
+  "source_hash": "beda103342d31ec2ef8596e74471801898687c0c22ff687c978df1b8810dfd5a"
+}
