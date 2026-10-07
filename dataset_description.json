@@ -1,0 +1,53 @@
+{
+  "Name": "Subthalamic local field potentials during the balloon analogue risk task (Pearson et al., 2017): Parkinson's disease DBS surgery (derivative: decimated LFP)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "John M. Pearson",
+    "Patrick T. Hickey",
+    "Shivanand P. Lad",
+    "Michael L. Platt",
+    "Dennis A. Turner"
+  ],
+  "EthicsApprovals": [
+    "This study was carried out in accordance with the recommendations of the Duke University Medical Center Institutional Review Board with written informed consent from all subjects. All subjects gave written informed consent in accordance with the Declaration of Helsinki. The protocol was approved by the Duke University Medical Center Institutional Review Board. [Pearson et al. 2017, Front Neurosci 11:646, Materials and Methods]"
+  ],
+  "Funding": [
+    "NIH grant R21NS066115 (D.T.)",
+    "NIH grant R21NS084176 (J.P.)",
+    "NIH grant K01ES025442 (J.P.)"
+  ],
+  "HowToAcknowledge": "Cite Pearson JM, Hickey PT, Lad SP, Platt ML, Turner DA (2017) Local fields in human subthalamic nucleus track the lead-up to impulsive choices. Front Neurosci 11:646, doi:10.3389/fnins.2017.00646; and the Dryad dataset doi:10.5061/dryad.54tp8q5.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.3389/fnins.2017.00646",
+    "https://doi.org/10.5061/dryad.54tp8q5",
+    "https://github.com/jmxpearson/bart_analysis"
+  ],
+  "Keywords": [
+    "subthalamic nucleus",
+    "local field potential",
+    "deep brain stimulation",
+    "Parkinson's disease",
+    "impulsivity",
+    "balloon analogue risk task",
+    "decision making"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5061/dryad.54tp8q5",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.54tp8q5",
+      "Version": "Dryad version 1 (published 2018-08-07)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' processing",
+      "Description": "LFP recorded at 1 kHz, decimated and stored at 200 Hz (README; 4 recordings have a 4 ms step); spike sorting with WaveClus (article)."
+    },
+    {
+      "Name": "b3w3_convert_pearson.py",
+      "Description": "Repackaging: per-channel LFP tables on a common time grid in BrainVision float32 (µV); behaviour and artifact-censoring tables to events.tsv. Code in code/."
+    }
+  ]
+}

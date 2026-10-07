@@ -1,0 +1,15 @@
+participant_id	source_id	age	sex	diagnosis	n_recordings
+sub-11	p11	n/a	n/a	Parkinson's disease	1
+sub-12	p12	n/a	n/a	Parkinson's disease	1
+sub-14	p14	n/a	n/a	Parkinson's disease	2
+sub-15	p15	n/a	n/a	Parkinson's disease	1
+sub-16	p16	n/a	n/a	Parkinson's disease	2
+sub-17	p17	n/a	n/a	Parkinson's disease	2
+sub-18	p18	n/a	n/a	Parkinson's disease	1
+sub-20	p20	n/a	n/a	Parkinson's disease	1
+sub-21	p21	n/a	n/a	Parkinson's disease	1
+sub-22	p22	n/a	n/a	Parkinson's disease	1
+sub-23	p23	n/a	n/a	Parkinson's disease	1
+sub-24	p24	n/a	n/a	Parkinson's disease	1
+sub-25	p25	n/a	n/a	Parkinson's disease	1
+sub-30	p30	n/a	n/a	Parkinson's disease	1

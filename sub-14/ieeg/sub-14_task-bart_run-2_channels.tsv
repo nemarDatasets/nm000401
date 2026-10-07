@@ -1,0 +1,2 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
+c17	SEEG	µV	n/a	n/a	200.0	n/a	good	n/a	intraoperative STN local field potential, channel 17 of the release (single microelectrode)

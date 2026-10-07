@@ -1,0 +1,96 @@
+{
+  "onset": {
+    "Description": "Trial rows: balloon inflation start ('start inflating'); censored rows: start of the censored interval. Times as stored in bart.hdf5 relative to the first LFP sample of the recording",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Trial rows: 'stop inflating' - 'start inflating'; censored rows: interval length",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "balloon = one BART trial; censored = interval marked artifactual for one channel (bart.hdf5 /censor)",
+    "Levels": {
+      "balloon": "BART trial",
+      "censored": "artifact interval of the channel in column 'channel'"
+    }
+  },
+  "sample": {
+    "Description": "onset x sampling frequency (0-based)"
+  },
+  "channel": {
+    "Description": "Channel of a censored interval"
+  },
+  "trial": {
+    "Description": "Unique trial number (0-indexed; README)"
+  },
+  "balloon_type": {
+    "Description": "Balloon colour / risk level (source column 'trial_type')",
+    "Levels": {
+      "1": "low risk (yellow)",
+      "2": "medium risk (orange)",
+      "3": "high risk (red)",
+      "4": "no reward (gray)"
+    }
+  },
+  "is_control": {
+    "Description": "Control trial (no voluntary stop)"
+  },
+  "this_balloon": {
+    "Description": "Balloon number in this dataset (trial + 1)"
+  },
+  "ctrltime": {
+    "Description": "Computer-generated random inflate time (control trials only)",
+    "Units": "s"
+  },
+  "points": {
+    "Description": "Points earned this trial"
+  },
+  "inflate_time": {
+    "Description": "Time the balloon inflated before popping or being stopped",
+    "Units": "s"
+  },
+  "result": {
+    "Description": "banked = success (balloon stopped), popped = balloon popped"
+  },
+  "score": {
+    "Description": "Accumulated score"
+  },
+  "banked": {
+    "Description": "Time the participant stopped the balloon (n/a if popped), seconds since task start",
+    "Units": "s"
+  },
+  "popped": {
+    "Description": "Time the balloon popped (n/a if stopped), seconds since task start",
+    "Units": "s"
+  },
+  "outcome": {
+    "Description": "Time the outcome was displayed, seconds since task start",
+    "Units": "s"
+  },
+  "start_inflating": {
+    "Description": "Time the balloon started inflating, seconds since task start",
+    "Units": "s"
+  },
+  "stop_inflating": {
+    "Description": "Time the balloon stopped inflating, seconds since task start",
+    "Units": "s"
+  },
+  "trial_start": {
+    "Description": "Time the trial began, seconds since task start",
+    "Units": "s"
+  },
+  "trial_over": {
+    "Description": "Time the trial ended, seconds since task start",
+    "Units": "s"
+  },
+  "trial_start_time": {
+    "Description": "Trial start time recorded by PsychoPy (PsychoPy clock)",
+    "Units": "s"
+  },
+  "rt": {
+    "Description": "Unused (README)"
+  },
+  "this_run": {
+    "Description": "Unused (README)"
+  }
+}

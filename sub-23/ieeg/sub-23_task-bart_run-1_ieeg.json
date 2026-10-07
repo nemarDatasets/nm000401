@@ -1,0 +1,19 @@
+{
+  "TaskName": "bart",
+  "TaskDescription": "Self-paced balloon analogue risk task: the patient stops an inflating balloon to bank points before it pops; balloon colour gives the risk level; gray balloons = no reward; control trials stop automatically (article, README).",
+  "SamplingFrequency": 200.0,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "Decimation": {
+      "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (not stated in the release)",
+  "Manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+  "RecordingType": "continuous",
+  "RecordingDuration": 772.77,
+  "SEEGChannelCount": 32,
+  "ECOGChannelCount": 0,
+  "ElectricalStimulation": false
+}
