@@ -36,3 +36,17 @@ per row, without patient numbers, so they are not assigned to subjects here.
 ## Privacy
 bart.hdf5 holds patient numbers, times in seconds and behaviour only; no names or dates were found. The file is
 included unchanged.
+
+## Additional metadata and localisation (added 2026-10-08)
+
+Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
+
+Sources: P = Pearson, Hickey, Lad, Platt, Turner 2017, Front Neurosci 11:646, doi:10.3389/fnins.2017.00646 (PMC5703842). R = deposit README_for_bart.md. F = bart.hdf5 metadata (Voyager Job).
+
+**Recording.** Plexon MAP system with FHC Guideline 4000. For single-electrode recordings, the high-pass (spike) and low-pass (LFP) signals were recorded; for the 32-channel arrays, LFP came from all 32 channels and high-pass from the 16 most active (P). LFP was recorded at 1 kHz and stored decimated to 200 Hz (R). The time step is 4 ms (250 Hz) in p17/d1, p21, p24 and p25 (measured from the file; atlas note). Spikes were sorted offline with WaveClus (P). Censoring tables mark artifactual epochs (R).
+
+**Electrodes.** Single-channel tungsten microelectrodes (Frederick Haer) were used for STN localisation. In 7 datasets (16.2, 17.2, 18.1, 20.1, 22.1, 23.1, 30.1), after mapping, a 32-channel Pt/Ir microwire array (35 µm wires, Ad-Tech) was passed to the STN through an outer cannula and slowly advanced (P).
+
+**Reference.** Not stated in P. For analysis, the mean across channels was subtracted at each time point (P, LFP preprocessing).
+
+**Localisation.** The STN was targeted indirectly (X 11-12 mm from midline, Y 2 mm behind the AC-PC midpoint, Z 4 mm below AC-PC), refined on FLAIR, and its borders were defined by single-unit mapping (aim: at least 5.5-6 mm of STN multi-unit activity, typically 2-3 passes). Data were mostly collected during localisation, with the electrode left at a well-isolated unit. Both sides were recorded in subjects 14, 16 and 17. 55 of 56 units were judged to be within STN boundaries; one was probably in SNr. The microwire positions are "distributed at random throughout STN" (P, Methods/Results/Discussion). No per-channel coordinates, depths or hemispheres are published or present in F.
