@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Subthalamic local field potentials during the balloon analogue risk task (Pearson et al., 2017): Parkinson's disease DBS surgery (derivative: decimated LFP)",
+  "description": "Intraoperative subthalamic nucleus (STN) local field potential recordings from patients with Parkinson's disease undergoing deep brain stimulation implantation at Duke University Medical Center. Patients performed a self-paced balloon analogue risk task (BART) while LFPs were recorded from single microelectrodes or 32-channel microwire arrays. This derivative repackages the LFP, decimated to 200 Hz, into BIDS iEEG format with behavioural and artifact-censoring events (17 recordings from 14 patients, about 4.3 h).",
+  "methods_description": "Recordings used a Plexon MAP system with FHC Guideline 4000. LFP was acquired at 1 kHz and stored decimated to 200 Hz. Single tungsten microelectrodes were used for STN mapping, and in 7 datasets a 32-channel Pt/Ir microwire array was advanced into the STN. Spikes were sorted offline with WaveClus. Patients performed a self-paced balloon analogue risk task during localisation.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "John M. Pearson": {},
     "Patrick T. Hickey": {},
@@ -8,6 +13,33 @@
     "Michael L. Platt": {},
     "Dennis A. Turner": {}
   },
+  "keywords": [
+    {
+      "term": "subthalamic nucleus"
+    },
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "impulsivity"
+    },
+    {
+      "term": "balloon analogue risk task"
+    },
+    {
+      "term": "intracranial EEG"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5061/dryad.54tp8q5",
@@ -44,14 +76,11 @@
       "award_number": "K01ES025442"
     }
   ],
-  "title": "Subthalamic local field potentials during the balloon analogue risk task (Pearson et al., 2017): Parkinson's disease DBS surgery (derivative: decimated LFP)",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "2.73 GB (36 files)"
   ],
@@ -63,36 +92,8 @@
     ".py",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Intraoperative subthalamic nucleus local field potential recordings from patients with Parkinson's disease undergoing deep brain stimulation implantation while performing a self-paced balloon analogue risk task (BART). The derivative release contains 17 recordings from 14 patients, decimated to 200 Hz from 1 kHz acquisition, using single microelectrodes or 32-channel microwire arrays. Behavioural trial data and artifact-censoring intervals are provided as BIDS events.",
-  "methods_description": "LFP was recorded at 1 kHz intraoperatively at Duke University Medical Center during DBS implantation, then decimated and stored at 200 Hz. Recordings used single microelectrodes or a 32-channel Pt/Ir microwire array. They were repackaged into BrainVision float32 (µV) with behaviour and artifact-censoring tables converted to events.tsv.",
-  "keywords": [
-    {
-      "term": "subthalamic nucleus"
-    },
-    {
-      "term": "local field potential"
-    },
-    {
-      "term": "Deep Brain Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
-    },
-    {
-      "term": "Parkinson Disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
-    },
-    {
-      "term": "impulsivity"
-    },
-    {
-      "term": "balloon analogue risk task"
-    },
-    {
-      "term": "intracranial EEG"
-    }
-  ],
-  "source_hash": "beda103342d31ec2ef8596e74471801898687c0c22ff687c978df1b8810dfd5a"
+  "source_hash": "7aa8f39e96af40a3ee19494b007a08f8e67dc7befb32ce1d89461f9e17bcf96a"
 }
