@@ -49,5 +49,7 @@
       "Name": "b3w3_convert_pearson.py",
       "Description": "Repackaging: per-channel LFP tables on a common time grid in BrainVision float32 (µV); behaviour and artifact-censoring tables to events.tsv. Code in code/."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000401",
+  "Version": "1.0.0"
 }
