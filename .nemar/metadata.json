@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Pearson-2017-local-10.3389/fnins.2017.00646",
+  "title": "Subthalamic local field potentials during the balloon analogue risk task (Pearson et al., 2017): Parkinson's disease DBS surgery (derivative: decimated LFP)",
   "description": "Intraoperative subthalamic nucleus (STN) local field potential recordings from 14 patients with Parkinson's disease undergoing deep brain stimulation implantation, collected while they performed a self-paced balloon analogue risk task. Recordings used single microelectrodes and, in a subset of sessions, a 32-channel microwire array. This derivative release repackages the 200 Hz decimated LFP and behavioural data from the original Dryad deposit into BIDS iEEG format, with artifact-censoring intervals stored in the events files.",
   "methods_description": "LFP was recorded intraoperatively with a Plexon MAP system and FHC Guideline 4000 at 1 kHz and stored decimated at 200 Hz (250 Hz in four recordings). Single tungsten microelectrodes were used for STN localisation, and in seven datasets a 32-channel Pt/Ir microwire array was advanced into the STN. Spikes were sorted offline with WaveClus. Behavioural data from the balloon analogue risk task and artifact-censoring intervals are provided in events.tsv.",
   "license": "CC0-1.0",
@@ -100,5 +100,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "f8890ca7ca969fbbd2c29446a769364d77a7eefb8fe6f5b24784d3531a4f66a8"
+  "source_hash": "4ac44db400a79d44945d716215f1e76d3b720ff0947ab91b5683e96cbdd766fd"
 }
