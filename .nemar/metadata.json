@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Subthalamic local field potentials during the balloon analogue risk task (Pearson et al., 2017): Parkinson's disease DBS surgery (derivative: decimated LFP)",
-  "description": "Intraoperative subthalamic nucleus (STN) local field potential recordings from 14 patients with Parkinson's disease undergoing deep brain stimulation implantation, collected while they performed a self-paced balloon analogue risk task. Recordings used single microelectrodes and, in a subset of sessions, a 32-channel microwire array. This derivative release repackages the 200 Hz decimated LFP and behavioural data from the original Dryad deposit into BIDS iEEG format, with artifact-censoring intervals stored in the events files.",
-  "methods_description": "LFP was recorded intraoperatively with a Plexon MAP system and FHC Guideline 4000 at 1 kHz and stored decimated at 200 Hz (250 Hz in four recordings). Single tungsten microelectrodes were used for STN localisation, and in seven datasets a 32-channel Pt/Ir microwire array was advanced into the STN. Spikes were sorted offline with WaveClus. Behavioural data from the balloon analogue risk task and artifact-censoring intervals are provided in events.tsv.",
+  "description": "Intraoperative subthalamic nucleus (STN) local field potential recordings from patients with Parkinson's disease undergoing deep brain stimulation implantation while performing a self-paced balloon analogue risk task. This derivative release repackages the decimated 200 Hz LFP from 17 recordings in 14 patients into BIDS iEEG format, with behavioural and artifact-censoring tables as events. It supports analysis of neural activity preceding impulsive and risky choices.",
+  "methods_description": "Recordings were made at Duke University Medical Center with a Plexon MAP system and FHC Guideline 4000, using single tungsten microelectrodes or a 32-channel Pt/Ir microwire array. LFP was acquired at 1 kHz and decimated to 200 Hz. Spikes were sorted offline with WaveClus. Participants performed the balloon analogue risk task during STN localisation.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,7 +21,9 @@
       "term": "local field potential"
     },
     {
-      "term": "subthalamic nucleus"
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
     },
     {
       "term": "Deep Brain Stimulation",
@@ -29,20 +31,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
     },
     {
-      "term": "Parkinson Disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+      "term": "Parkinson's disease"
     },
     {
       "term": "impulsivity"
     },
     {
       "term": "balloon analogue risk task"
-    },
-    {
-      "term": "Decision Making",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     }
   ],
   "related_identifiers": [
