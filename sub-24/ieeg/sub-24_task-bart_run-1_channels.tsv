@@ -1,2 +1,2 @@
 name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
-c2	SEEG	µV	n/a	n/a	250.0	n/a	good	n/a	intraoperative STN local field potential, channel 2 of the release (single microelectrode)
+c2	SEEG	n/a	n/a	n/a	250.0	n/a	good	n/a	intraoperative STN local field potential, channel 2 of the release (single microelectrode)
