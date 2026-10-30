@@ -1,3 +1,6 @@
+1.0.3 2026-10-19
+  - Units: SEEG channels of all 17 recordings changed from µV to n/a (header resolution 0.000001, so MNE still returns the release `voltage` numbers) in channels.tsv and the .vhdr headers: the release states no unit and its values differ by up to 1e5 between recordings. The 17 .vhdr files are now plain git files (were annexed). Data unchanged.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
